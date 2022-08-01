@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Sospeter-brian/Sospeter-brian-man-united-quizzes-api/issues"
   },
-  "homepage": "https://github.com/Sospeter-brian/Sospeter-brian-man-united-quizzes-api#readme"
+  "homepage": "https://github.com/Sospeter-brian/Sospeter-brian-man-united-quizzes-api#readme",
+  "dependencies": {
+    "json": "^11.0.0",
+    "json-server": "^0.17.0",
+    "server": "^1.0.37"
+  }
 }
